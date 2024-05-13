@@ -58,7 +58,7 @@ A seguir, apresentamos o diagrama arquitetural do projeto (escrito com [Mermaid]
 
 ```mermaid
 graph RL;
-  subgraph layer-infra[Infraestrutura];
+  subgraph layer-infra[Infraestrutura teste];
     UI("Frontend (UI)") ---> Controller
     subgraph layer-adpaters[Adaptadores];
       Controller("Controllers") <--> UC
